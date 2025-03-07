@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dfd2d2;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        #set{
+        display: flex;
+        align-items: flex-end; /* Aligns avatar to the bottom */
+        justify-content: space-between;
+}
+
+    .info {
+        flex: 1; /* Phần thông tin chiếm phần lớn không gian */
+         /* Khoảng cách giữa thông tin và avatar */
+    }
+
+    .avatar img {
+        width: 125px; /* Điều chỉnh kích thước avatar */
+        height: 125px;
+        border-radius: 50%; /* Làm tròn avatar */
+        object-fit: cover;
+        margin-right: 50px; /* Đảm bảo hình ảnh không bị méo */
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TRANG WEB CÁ NHÂN</h1>
+    </header>
+
+    <div class="container">
+        <section class="section" id="set">
+            <div class="info">
+                <h2>Thông tin cơ bản</h2>
+                <p>Xin chào! Tôi tên là <strong>Huỳnh Bá Dũng</strong>.</p>
+                <p>Tôi sinh ngày <strong>29/03/2007</strong>.</p>
+                <p>Hiện tại, tôi đang học tại <strong>THPT Lê Quý Đôn</strong>.</p>
+            </div>
+            <div class="avatar">
+                <img src="/img/ava.jpg" alt="avatar">
+            </div>
+        </section>
+        </section>
+        <section class="section">
+            <h2>Sở Thích</h2>
+            <ul>
+                <li>Đọc sách</li>
+                <li>Chơi thể thao</li>
+                <li>Du lịch</li>
+                <li>Học công nghệ mới</li>
+                <li>Xem phim</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Lịch học hằng ngày</h2>
+            <table border="1" cellspacing="0">
+                <tr>
+                    <th width="50">&nbsp;</th>
+                    <th width="50">&nbsp;</th>
+                    <th width="80">Thứ Hai</th>
+                    <th width="80">Thứ Ba</th>
+                    <th width="80">Thứ Tư</th>
+                    <th width="80">Thứ Năm</th>
+                    <th width="80">Thứ Sáu</th>        
+                </tr>
+                
+                <tr >
+                    <td align="center" border="1" rowspan="7">Sáng</td>
+                    <td align="center">Tiết 1</td>
+                    <td align="center">HĐTN-HN</td>
+                    <td align="center">Ngữ Văn</td>
+                    <td align="center">Tin Học</td>
+                    <td align="center">Vật Lý</td>
+                    <td align="center">Toán</td>
+                </tr>
+                    <td colspan="7" align="center" bgcolor="#e0e0e0">Ra chơi 1</td>
+                <tr>
+                    <td align="center">Tiết 2</td>
+                    <td align="center">HĐTN-HN</td>
+                    <TD align="center">Ngữ Văn</TD>
+                    <td align="center">Tin Học</td>
+                    <td align="center">Ngữ Văn</td>
+                    <td align="center">Toán</td>
+                </tr>
+                <tr>
+                    <td align="center">Tiết 3</td>
+                    <td align="center">Ngoại Ngữ</td>
+                    <TD align="center">Sinh Học</TD>
+                    <td align="center">Quốc Phòng</td>
+                    <td align="center">Toán</td>
+                    <td align="center">Ngữ Vắn</td>
+                </tr>
+                <td colspan="7" align="center" bgcolor="#e0e0e0">Ra chơi 2</td>
+                <tr>
+                    <td align="center">Tiết 4</td>
+                    <td align="center">GDĐP</td>
+                    <TD align="center">Sinh học</TD>
+                    <td align="center">Toán</td>
+                    <td align="center">Ngoại Ngữ</td>
+                    <td align="center">Lịch Sử</td>
+                </tr>
+                <tr>
+                    <td align="center">Tiết 5</td>
+                    <td align="center">Ngữ Văn</td>
+                    <TD align="center">Sinh học</TD>
+                    <td align="center">Toán</td>
+                    <td align="center">Hóa</td>
+                    <td align="center">Hóa</td>
+                </tr>
+            </table>
+        </section>
+        <section class="section">
+              <h2>Nội Dung Yêu Thích</h2>
+              <h3>Hình ảnh</h3>
+              <table>
+                <tr>
+                    <td><img src="/img/pic1.jpg" alt="picture"></td>
+                    <td><img src="/img/pic2.jpg" alt="picture"></td>
+                    <td><img src="/img/pic3.jpg" alt="picture"></td>
+                    <td><img src="/img/pic4.jpg" alt="picture"></td>
+                </tr>
+              </table>
+        </section>
+    </div>
+</body>
+</html>
